@@ -26,17 +26,3 @@ A progressive ML/AI curriculum covering Python fundamentals through modern LLM-b
 | 10 | [Large Language Models & AI Agents](Assignment%2010%20-%20Large%20Language%20Models%20%26%20AI%20Agents.ipynb) | Builds a LangGraph-powered AI botanist agent that uses tool-calling, web search (Tavily), and an EfficientNet plant classifier to generate structured plant-care cards. |
 | 10b | [LLM Agents v2](Assignment%2010b%20-%20LLM%20Agents%20v2.ipynb) | A revised iteration of the LLM agent pipeline with refinements to prompts, graph nodes, and validation logic. |
 | 11 | [Retrieval-Augmented Generation (RAG)](Assignment%2011%20-%20Retrieval-Augmented%20Generation.ipynb) | Implements a full RAG system using LanceDB vector storage, sentence-transformer embeddings, and LangChain, evaluated with the RAGas framework. |
-
----
-
-## Final App — Plant Care Card
-
-The capstone project combines everything from the curriculum into a production-ready **CNN + RAG pipeline** that:
-
-- 📸 Accepts a plant photo and classifies it using a fine-tuned **EfficientNet-B1** model (Assignment 09d)
-- 🔍 Retrieves relevant care information via **RAG** with LanceDB + sentence-transformers (Assignment 11)
-- 🤖 Generates a structured **plant-care card** using a LangGraph AI agent (Assignment 10)
-- 🌐 Serves everything through a **Streamlit** web interface, containerised with Docker
-
-👉 **Source code**: [`Final_App/`](Final_App/)  
-👉 **Original repo**: [github.com/stefansandru/plant-care-card](https://github.com/stefansandru/plant-care-card)
