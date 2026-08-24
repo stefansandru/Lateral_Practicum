@@ -1,0 +1,3 @@
+[submodule "Final_App"]
+	path = Final_App
+	url = https://github.com/stefansandru/plant-care-card.git
